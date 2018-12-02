@@ -1,0 +1,13 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-core-rhino-head-frontal-outline: unicode(ea01);
+
+.icon-core-rhino-head-frontal-outline::before {
+  content: $icon-core-rhino-head-frontal-outline;
+}
+
