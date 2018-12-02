@@ -35,7 +35,7 @@ Route::get('/fb-callback', function () {
 
 Route::group(['middleware' => ['web','auth']], function(){
   Route::get('/', function () {
-      return view('login1');
+      return view('login');
   });
 
   Route::get('/index', function() {
