@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,8 +9,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
 Auth::routes();
 Route::get('/calendario', function () {
     return view('calendario');
@@ -32,12 +29,10 @@ Route::get('/fb-callback', function () {
     return view('fb-callback');
 });
 
-
 Route::group(['middleware' => ['web','auth']], function(){
   Route::get('/', function () {
-      return view('login');
+      return view('auth.login');
   });
-
   Route::get('/index', function() {
     if (Auth::user()->admin == 0) {
       return view('dashboard');
