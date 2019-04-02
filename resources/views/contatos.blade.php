@@ -27,7 +27,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Visão Tecnologia e Sistemas</td>
+                        <td>Visão Tecnologia e Sistema</td>
                         <td>(31) 973044405</td>
                         <td>contato@visaojr.com.br</td>
                         <td class="text-center">
