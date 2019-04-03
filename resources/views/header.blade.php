@@ -48,7 +48,7 @@
             </a>
           </li>
           <li id="estatisticas">
-            <a href="./icons.php">
+            <a href='{!! url("/estatisticas"); !!}'>
               <i class="now-ui-icons business_chart-bar-32"></i>
               <p>Estatísticas</p>
             </a>
