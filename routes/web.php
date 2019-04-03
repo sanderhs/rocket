@@ -22,8 +22,17 @@ Route::get('/loginfb', function () {
 Route::get('/core', function () {
     return view('/core');
 });
+Route::get('/home', function () {
+  return view('/home');
+});
+Route::get('/dashboard', function () {
+  return view('/dashboard');
+});
 Route::get('/primeirospassos', function () {
-    return view('/primeiroacesso');
+    return view('/primeirospassos');
+});
+Route::get('/estatisticas', function () {
+  return view('/estatisticas');
 });
 Route::get('/fb-callback', function () {
     return view('fb-callback');

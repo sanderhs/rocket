@@ -4,9 +4,8 @@
       <div class="panel-header">
         <div class="header text-center">
           <h2 class="title">Contatos</h2>
-          <p class="category">Handcrafted by our friend
-            <a target="_blank" href="https://github.com/mouse0270">Robert McIntosh</a>. Please checkout the
-            <a href="http://bootstrap-notify.remabledesigns.com/" target="_blank">full documentation.</a>
+          <p>
+            Entre em contato com as empresas juniores do Core
           </p>
         </div>
       </div>
